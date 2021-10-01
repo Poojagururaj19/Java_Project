@@ -1,0 +1,68 @@
+Looking for git in: git
+Using git 2.27.0 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/poojagfisglobal/Desktop/My Repository
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :Demo.java
+> git ls-files --stage -- /home/poojagfisglobal/Desktop/My Repository/Demo.java
+> git check-ignore -v -z --stdin
+> git show :Dem.class
+> git ls-files --stage -- /home/poojagfisglobal/Desktop/My Repository/Dem.class
+> git check-ignore -v -z --stdin
+> git show :Demo.java
+> git ls-files --stage -- /home/poojagfisglobal/Desktop/My Repository/Demo.java
+> git show :Dem.class
+> git ls-files --stage -- /home/poojagfisglobal/Desktop/My Repository/Dem.class
+> git show :Demo.java
+> git ls-files --stage -- /home/poojagfisglobal/Desktop/My Repository/Demo.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show :Demo.class
+> git ls-files --stage -- /home/poojagfisglobal/Desktop/My Repository/Demo.class
+> git show :Demo.java
+> git ls-files --stage -- /home/poojagfisglobal/Desktop/My Repository/Demo.java
+> git show :Test.java
+> git ls-files --stage -- /home/poojagfisglobal/Desktop/My Repository/Test.java
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :Employee1.java
+> git ls-files --stage -- /home/poojagfisglobal/Desktop/My Repository/Employee1.java
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template

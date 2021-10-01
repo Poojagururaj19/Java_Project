@@ -1,0 +1,36 @@
+Looking for git in: git
+Using git 2.27.0 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/poojagfisglobal/Desktop/My Repository
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :Simple
+> git ls-files --stage -- /home/poojagfisglobal/Desktop/My Repository/Simple
+> git cat-file -s 1d928562e36b645dd0588bb9870fa719c2775234
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/poojagfisglobal/Desktop/My Repository/Simple
+> git symbolic-ref --short HEAD
+> git cat-file -s f7795ae17589002f2ad426bc44f247a171d11fe4
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git show :Simple
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template

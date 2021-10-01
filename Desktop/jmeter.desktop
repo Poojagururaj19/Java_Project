@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=5.3
+Name=jmeter
+Comment=Apache jmeter
+Type=Application
+Categories=LoadTesting;
+Exec=sudo sh /opt/jmeter/apache-jmeter-5.3/bin/jmeter.sh
+Terminal=false
+StartupNotify=true
+Icon=/opt/jmeter/apache-jmeter-5.3/jmeter.png
+Name[en_US]=jmeter

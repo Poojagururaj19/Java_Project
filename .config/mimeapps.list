@@ -1,0 +1,7 @@
+[Added Associations]
+text/plain=code.desktop;libreoffice-writer.desktop;
+application/x-java=code.desktop;
+text/x-java=vim.desktop;
+
+[Default Applications]
+application/x-java=code.desktop
